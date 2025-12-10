@@ -1,0 +1,26 @@
+.bookmark-item[label="Google"] > .toolbarbutton-icon,
+.menu-iconic.bookmark-item[label="Google"]>.menu-icon {
+    width: 0px !important;
+    height: 0px !important;
+    padding: 0 0 16px 16px !important;
+    background-image: url("google.png") !important;
+    background-size: cover !important;
+}
+
+.bookmark-item[label="Blue Archive"] > .toolbarbutton-icon,
+.menu-iconic.bookmark-item[label="Blue Archive"]>.menu-icon {
+    width: 0px !important;
+    height: 0px !important;
+    padding: 0 0 16px 16px !important;
+    background-image: url("plana.png") !important;
+    background-size: cover !important;
+}
+
+.bookmark-item[label="Nekoweb"] > .toolbarbutton-icon,
+.menu-iconic.bookmark-item[label="Nekoweb"]>.menu-icon {
+    width: 0px !important;
+    height: 0px !important;
+    padding: 0 0 16px 16px !important;
+    background-image: url("nekoweb.webp") !important;
+    background-size: cover !important;
+}
