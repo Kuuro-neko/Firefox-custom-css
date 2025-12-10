@@ -1,4 +1,11 @@
 # Installation
+## 0. Clone the repository and cd into it
+
+```bash
+git clone https://github.com/Kuuro-neko/Firefox-custom-css.git
+cd Firefox-custom-css
+```
+
 ## 1. Enable userChrome.css
 
 Go to `about:config`
