@@ -7,11 +7,11 @@ Set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`
 
 ## 2. Windows
 
-Run **as an administrator** `windows.bat`.
+Run **as an administrator** `windows.bat`
 
 ## 2. Linux
 
-I need to fix the linux script now lol
+Run `linux.sh`
 
 # Edit
 

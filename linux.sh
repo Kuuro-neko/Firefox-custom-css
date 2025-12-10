@@ -1,6 +1,10 @@
 #!/bin/bash
-mkdir -p ~/.mozilla/firefox/7d5bcwlt.default-release/chrome/
+PROFILE_DIR=$(ls -d ~/.mozilla/firefox/*.default-release 2>/dev/null | head -1)
 
-rm -rf ~/.mozilla/firefox/7d5bcwlt.default-release/chrome/*
+if [ -z "$PROFILE_DIR" ]; then
+  echo "Error: No Firefox profile found matching *.default-release"
+  exit 1
+fi
 
-cp -r chrome/ ~/.mozilla/firefox/7d5bcwlt.default-release/
+rm -f "$PROFILE_DIR/chrome"
+ln -s "$(pwd)/chrome" "$PROFILE_DIR/chrome"
