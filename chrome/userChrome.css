@@ -1,3 +1,13 @@
+.bookmark-item[type="menu"] > .toolbarbutton-icon,
+.menu-iconic.bookmark-item>.menu-icon {
+    /* Default folder icon */
+    width: 0px !important;
+    height: 0px !important;
+    padding: 0 0 16px 16px !important;
+    background-image: url("folder.png") !important;
+    background-size: cover !important;
+}
+
 .bookmark-item[label="Google"] > .toolbarbutton-icon,
 .menu-iconic.bookmark-item[label="Google"]>.menu-icon {
     width: 0px !important;
@@ -22,5 +32,23 @@
     height: 0px !important;
     padding: 0 0 16px 16px !important;
     background-image: url("nekoweb.webp") !important;
+    background-size: cover !important;
+}
+
+.bookmark-item[label="Image tools"] > .toolbarbutton-icon,
+.menu-iconic.bookmark-item[label="Image tools"]>.menu-icon {
+    width: 0px !important;
+    height: 0px !important;
+    padding: 0 0 16px 16px !important;
+    background-image: url("paint.png") !important;
+    background-size: cover !important;
+}
+
+.bookmark-item[label="Localhost"] > .toolbarbutton-icon,
+.menu-iconic.bookmark-item[label="Localhost"]>.menu-icon {
+    width: 0px !important;
+    height: 0px !important;
+    padding: 0 0 16px 16px !important;
+    background-image: url("computer.png") !important;
     background-size: cover !important;
 }
