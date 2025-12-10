@@ -9,8 +9,7 @@ echo Error: No default-release profile found
 exit /b 1
 
 :found
-mkdir "%PROFILE%\chrome\" 2>nul
+rmdir "%PROFILE%\chrome" 2>nul
+del "%PROFILE%\chrome" 2>nul
 
-rmdir /s /q "%PROFILE%\chrome" 2>nul
-
-xcopy "chrome\" "%PROFILE%\chrome\" /E /I /Y
+mklink /D "%PROFILE%\chrome" "%~dp0chrome"

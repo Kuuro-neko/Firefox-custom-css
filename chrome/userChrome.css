@@ -15,6 +15,7 @@
     padding: 0 0 16px 16px !important;
     background-image: url("google.png") !important;
     background-size: cover !important;
+    image-rendering: pixelated !important;
 }
 
 .bookmark-item[label="Fac"] > .toolbarbutton-icon,
