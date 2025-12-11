@@ -18,6 +18,33 @@
     image-rendering: pixelated !important;
 }
 
+.bookmark-item[label="Dreamcorp"] > .toolbarbutton-icon,
+.menu-iconic.bookmark-item[label="Dreamcorp"]>.menu-icon {
+    width: 0px !important;
+    height: 0px !important;
+    padding: 0 0 16px 16px !important;
+    background-image: url("dc.webp") !important;
+    background-size: cover !important;
+}
+
+.bookmark-item[label="Monster Hunter"] > .toolbarbutton-icon,
+.menu-iconic.bookmark-item[label="Monster Hunter"]>.menu-icon {
+    width: 0px !important;
+    height: 0px !important;
+    padding: 0 0 16px 16px !important;
+    background-image: url("gs.png") !important;
+    background-size: cover !important;
+}
+
+.bookmark-item[label="IG"] > .toolbarbutton-icon,
+.menu-iconic.bookmark-item[label="IG"]>.menu-icon {
+    width: 0px !important;
+    height: 0px !important;
+    padding: 0 0 16px 16px !important;
+    background-image: url("cornell_box.png") !important;
+    background-size: cover !important;
+}
+
 .bookmark-item[label="Fac"] > .toolbarbutton-icon,
 .menu-iconic.bookmark-item[label="Fac"]>.menu-icon {
     width: 0px !important;
